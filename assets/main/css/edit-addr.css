@@ -1,0 +1,70 @@
+html,body {
+    background-color: #fff;
+}
+.wrap form {
+    padding-top: 20px;
+}
+.wrap form .form-group {
+    border-bottom: 1px solid #ededed;
+    padding: 10px 15px 10px 15px;
+}
+.wrap form .form-group > label,.wrap form .form-group > input,.wrap form .form-group > a{
+    float: left;
+}
+.wrap form .form-group > label {
+    width: 35%;
+    margin-bottom: 0;
+}
+.wrap form .form-group > input{
+    width: 65%;
+    border: none;
+    outline: none;
+}
+.wrap form .form-group > a {
+    width: 65%;
+    text-align: right;
+}
+.wrap .form-group .radio {
+    display: inline-block;
+    margin-right: 20px;
+}
+.wrap .form-group .radio > label >input {
+    display: none;
+}
+.wrap .form-group .radio label {
+    font-weight: 400;
+    color: #a2a2a2;
+    margin-bottom: 0;
+    padding: 3px 15px;
+}
+.wrap .form-group .radio label.active {
+    border: 1px solid #58d481;
+    color: #58d481;
+    background-color: #eefbf3;
+}
+.wrap .form-group .switcher {
+    float: right;
+}
+.wrap .btn-group {
+    width: 100%;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 50px;
+}
+.wrap .btn-group > a ,.wrap .btn-group > button{
+    display: inline-block;
+    width: 45%;
+}
+.wrap .btn-group > a {
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+    margin-right: 5%;
+    border-radius: 20px;
+}
+.wrap .btn-group > button.btn {
+    margin-left: 5%;
+    background-image: linear-gradient(to right,#6ceb96,#58d481);
+    color: #fff;
+    border-radius: 20px;
+}

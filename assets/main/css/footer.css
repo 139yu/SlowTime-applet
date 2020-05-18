@@ -1,0 +1,27 @@
+.footer {
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 99999;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background-color: #fafafa;
+}
+.footer .footer-item {
+    float: left;
+    width: 33%;
+}
+.footer .footer-item span:nth-child(1) {
+    font-size: 20px;
+}
+.footer .footer-item span {
+    font-size: 16px;
+}
+.footer .footer-item.active span:nth-child(1) {
+    color: #66ccff;
+}
+.footer .footer-item.active span:nth-child(3) {
+    color: #000;
+}

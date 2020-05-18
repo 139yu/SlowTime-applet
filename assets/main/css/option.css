@@ -1,0 +1,32 @@
+html,body {
+    background-color: #fff;
+}
+.wrap {
+    padding: 20px;
+}
+.wrap form {
+    text-align: center;
+}
+.wrap .form-group .title {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.wrap .form-group .title span:nth-child(1) {
+    float: left;
+    color: #000;
+    font-weight: 700;
+}
+.wrap .form-group .title span:nth-child(2) {
+    float: right;
+}
+.wrap .form-group textarea {
+    border: none;
+    background-color: #f6f6f6;
+}
+.wrap .submit {
+    margin-top: 35px;
+    padding: 10px 66px;
+    border: none;
+    background-image: linear-gradient(to right,#6ceb96, #58d481);
+    border-radius: 50px;
+}

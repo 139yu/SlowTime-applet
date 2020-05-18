@@ -1,0 +1,35 @@
+html,body {
+    background-color: #fff;
+}
+.wrap {
+    padding: 15px;
+}
+.wrap .form-group {
+    position: relative;
+}
+.wrap .form-group svg {
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    font-size: 25px;
+}
+.wrap .form-group:nth-child(1) .btn {
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    font-size: 14px;
+    color: #58d481;
+}
+.wrap .form-group input:nth-child(2) {
+    padding-left: 40px;
+    height: 50px;
+}
+.wrap form {
+    text-align: center;
+}
+.wrap .submit {
+    padding: 10px 66px;
+    border: none;
+    background-image: linear-gradient(to right,#6ceb96, #58d481);
+    border-radius: 50px;
+}

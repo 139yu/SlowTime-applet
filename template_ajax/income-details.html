@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8"/>
+    <title>我的收益</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+
+    <!-- ================== BEGIN BASE CSS STYLE ================== -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"/>
+    <link href="../assets/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/animate/animate.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/style.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/style-responsive.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/theme/default.css" rel="stylesheet" id="theme"/>
+    <link rel="stylesheet" href="../assets/main/icon/iconfont.css">
+    <link rel="stylesheet" href="../assets/main/css/basic.css">
+    <link rel="stylesheet" href="../assets/main/css/income-details.css">
+    <!-- ================== END BASE CSS STYLE ================== -->
+
+    <!-- ================== BEGIN BASE JS ================== -->
+    <script src="../assets/main/icon/iconfont.js"></script>
+    <!-- ================== END BASE JS ================== -->
+</head>
+<body>
+
+<div class="wrap">
+    <div class="header-nav">
+        <!-- begin nav-tabs -->
+        <ul class="nav nav-tabs">
+            <li class="nav-items">
+                <a href="#default-tab-1" data-toggle="tab" class="nav-link active">
+                    <span class="d-sm-none">总收益</span>
+                    <span class="d-sm-block d-none">总收益</span>
+                </a>
+            </li>
+            <li class="nav-items">
+                <a href="#default-tab-2" data-toggle="tab" class="nav-link">
+                    <span class="d-sm-none">收益明细</span>
+                    <span class="d-sm-block d-none">收益明细</span>
+                </a>
+            </li>
+            <li class="nav-items">
+                <a href="#default-tab-3" data-toggle="tab" class="nav-link">
+                    <span class="d-sm-none">抵扣明细</span>
+                    <span class="d-sm-block d-none">抵扣明细</span>
+                </a>
+            </li>
+        </ul>
+        <!-- end nav-tabs -->
+    </div>
+    <!-- begin tab-content -->
+    <div class="tab-content">
+        <!-- begin tab-pane -->
+        <div class="tab-pane all-income fade active show" id="default-tab-1">
+            <div class="all-income clearfix">
+                <p>
+                    <span>总收益：</span>
+                    <span>￥0.00</span>
+                </p>
+                <p>单位：元</p>
+            </div>
+            <div class="select-view">
+                <select name="view" onchange="changeView()">
+                    <option value="1">日视图</option>
+                    <option value="2">周视图</option>
+                    <option value="3">月视图</option>
+                </select>
+                <span class="icon iconfont icon-direction_down"></span>
+            </div>
+            <div class="view">
+                <div class="day-view active">
+                    <ul class="data clearfix">
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>04/19</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>04/20</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>04/21</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>04/22</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>04/23</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>04/24</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>04/25</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>04/26</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>04/27</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>04/28</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>04/29</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>04/30</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>04/31</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="week-view">
+                    <ul class="data clearfix">
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>10/28-11/03</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>11/04-11/10</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>11/11-11/17</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>11/18-11/24</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>11/25-12/01</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>12/02-12/08</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>12/08-12/07</p>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="month-view">
+                    <ul class="data clearfix">
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>12月</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>1月</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>2月</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>3月</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>4月</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>5月</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>6月</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>7月</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>8月</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>9月</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>10月</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>11月</p>
+                        </li>
+                        <li>
+                            <p>0</p>
+                            <p></p>
+                            <p>12月</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end tab-pane -->
+        <!-- begin tab-pane -->
+        <div class="tab-pane income-details fade" id="default-tab-2">
+            <div class="all-income">
+                <p>
+                    <span>总收益：</span>
+                    <span>￥0</span>
+                </p>
+                <div class="select-date clearfix">
+                    <div class="start-date">
+                        <label>选择日期:</label>
+                        <br>
+                        <input type="text" class="datepicker-autoClose" name="start-date"/>
+                    </div>
+                    <div class="end-date">
+                        <label>选择日期:</label>
+                        <br>
+                        <input type="text" class="datepicker-autoClose" name="end-date"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end tab-pane -->
+        <!-- begin tab-pane -->
+        <div class="tab-pane discount-details fade" id="default-tab-3">
+            <div class="discount">
+                <p>
+                    <span>可用抵扣券：</span>
+                    <span>￥0</span>
+                </p>
+                <div class="select-date clearfix">
+                    <div class="start-date">
+                        <label>选择日期:</label>
+                        <br>
+                        <input type="text" class="datepicker-autoClose" name="start-date"/>
+                    </div>
+                    <div class="end-date">
+                        <label>选择日期:</label>
+                        <br>
+                        <input type="text" class="datepicker-autoClose" name="end-date"/>
+                    </div>
+            </div>
+        </div>
+        <!-- end tab-pane -->
+    </div>
+    <!-- end tab-content -->
+</div>
+
+<!-- ================== BEGIN BASE JS ================== -->
+<script src="../assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+<script src="../assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
+<script src="../assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="../assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!--[if lt IE 9]>
+<script src="../assets/crossbrowserjs/html5shiv.js"></script>
+<script src="../assets/crossbrowserjs/respond.min.js"></script>
+<script src="../assets/crossbrowserjs/excanvas.min.js"></script>
+<![endif]-->
+<script src="../assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="../assets/plugins/js-cookie/js.cookie.js"></script>
+<script src="../assets/js/theme/default.min.js"></script>
+<script src="../assets/js/apps.min.js"></script>
+<script src="../assets/main/js/income-details.js"></script>
+<!-- ================== END BASE JS ================== -->
+<script>
+    App.restartGlobalFunction();
+
+    $.getScript('../assets/plugins/bootstrap-daterangepicker/moment.js').done(function () {
+        $.when(
+            $.getScript('../assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js'),
+            $.getScript('../assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js'),
+            $.getScript('../assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js'),
+            $.getScript('../assets/plugins/masked-input/masked-input.min.js'),
+            $.getScript('../assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js'),
+            $.getScript('../assets/plugins/password-indicator/js/password-indicator.js'),
+            $.getScript('../assets/plugins/bootstrap-combobox/js/bootstrap-combobox.js'),
+            $.getScript('../assets/plugins/bootstrap-select/bootstrap-select.min.js'),
+            $.getScript('../assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js'),
+            $.getScript('../assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js'),
+            $.getScript('../assets/plugins/jquery-tag-it/js/tag-it.min.js'),
+            $.getScript('../assets/plugins/bootstrap-daterangepicker/daterangepicker.js'),
+            $.getScript('../assets/plugins/select2/dist/js/select2.min.js'),
+            $.getScript('../assets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js'),
+            $.getScript('../assets/plugins/bootstrap-show-password/bootstrap-show-password.js'),
+            $.getScript('../assets/plugins/bootstrap-colorpalette/js/bootstrap-colorpalette.js'),
+            $.getScript('../assets/plugins/jquery-simplecolorpicker/jquery.simplecolorpicker.js'),
+            $.getScript('../assets/plugins/clipboard/clipboard.min.js'),
+            $.Deferred(function (deferred) {
+                $(deferred.resolve);
+            })
+        ).done(function () {
+            $.getScript('../assets/js/demo/form-plugins.demo.min.js').done(function () {
+                FormPlugins.init();
+            });
+        });
+    });
+</script>
+</body>
+</html>

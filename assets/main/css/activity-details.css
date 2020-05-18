@@ -1,0 +1,25 @@
+html,body {
+    background-color: #f6f6f6;
+}
+.header .banner img {
+    width: 100%;
+}
+.activity-details {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.activity-details .row {
+    background-color: #fff;
+}
+.activity-details .row:last-child {
+    padding-bottom: 15px;
+}
+.activity-details .row > div {
+    padding-top: 15px;
+}
+.activity-details .row > div:nth-child(1) > p {
+    color: #a2a2a2;
+}
+.activity-details .row > div:nth-child(2) > p {
+    color: #000;
+}

@@ -1,0 +1,117 @@
+body {
+    background-color: #fff;
+}
+.wrap p {
+    margin-bottom: 0;
+}
+.wrap .card {
+    margin: 10px 10px 0 10px;
+    background-color: #97c9f8;
+    border-radius: 20px 20px 0 0;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.wrap .card > div {
+    float: left;
+}
+.wrap .card > .card-icon {
+    width: 16%;
+}
+.wrap .card > .pic {
+     width: 60%;
+ }
+.wrap .card > .pic p:nth-child(1) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.wrap .card > .pic ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.wrap .card > .pic ul li {
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+}
+.wrap .card > .pic ul li:before {
+    position: absolute;
+    left: -10px;
+    top: 7px;
+    content: " ";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.wrap .card > .count {
+    width: 24%;
+}
+.wrap .card > .count p{
+    margin-top: 6em;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 14px;
+}
+.wrap .card .card-icon svg {
+    font-size: 35px;
+    font-weight: 700;
+}
+.wrap .card-details {
+    background-color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.wrap .card-details .node {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ededed;
+}
+.wrap .card-details .node p {
+    position: relative;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+}
+.wrap .card-details .node p:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 2px;
+    height: 20px;
+    background-color: #f0cb5a;
+}
+.wrap .card-details .details > .row {
+    padding-top: 15px;
+}
+.wrap .card-details .details .row div:nth-child(1) {
+    text-align: left;
+}
+.wrap .card-details .details .row div:nth-child(2) {
+    text-align: right;
+}
+.wrap .card-details .get {
+    margin-top: 6em;
+    text-align: center;
+}
+
+.wrap .card-details .get a {
+    display: inline-block;
+    width: 60%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #97c9f8;
+    color: #fff;
+    border-radius: 10px;
+}

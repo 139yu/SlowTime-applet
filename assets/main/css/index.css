@@ -1,0 +1,229 @@
+.header > div > svg:first-child {
+    font-size: 20px;
+}
+.content .localtion {
+    text-align: left;
+}
+.content .list-type {
+     text-align: right;
+ }
+.content .list-type > span {
+    font-weight: 700;
+    font-size: 16px;
+}
+.content .search {
+    margin-top: 15px;
+}
+.content .search .input-group {
+    position: relative;
+}
+.content .search .input-group input {
+    padding-left: 35px;
+}
+.content .search .input-group svg {
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    z-index: 1;
+}
+.content .shop-type {
+    margin-top: 10px;
+}
+.content .shop-type > div > div {
+    border: 1px solid #64e28e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.content .shop-type > div.active > div {
+    background-color: #64e28e;
+    color: #fff;
+}
+.content .shop-type > div:first-child > div{
+    border-radius: 50px 0 0 50px;
+}
+.content .shop-type > div:last-child > div{
+    border-radius: 0 50px 50px 0;
+}
+.content .shop-type > div > span {
+    display: inline-block;
+}
+.content > .nav-wrap {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 10px;
+    background-color: #fff;
+    border-bottom:1px solid #f6f6f6;
+    border-radius: 15px 15px 0 0;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.nav-wrap > div {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.nav-wrap > .shop-optional {
+    width: 30%;
+}
+.nav-wrap > .nav-items {
+     width: 20%;
+ }
+.nav-wrap > .nav-items.active {
+    color: #64e28e;
+}
+.nav-wrap > .local-shop {
+    width: 25%;
+}
+.nav-wrap > .shop-optional > .optional-list {
+    padding-left: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    text-align: left;
+    display: none;
+    z-index: 2;
+}
+.nav-wrap > .shop-optional > .optional-list.active {
+    display: block;
+}
+.nav-wrap > .shop-optional > .optional-list .optional {
+    background-color: #fff;
+    padding: 10px 0 10px 2em;
+    border-bottom: 1px solid #f7f7f7;
+    color: #6ae692;
+}
+.content .tab-content {
+    padding: 0;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 4em;
+}
+.content .tab-content .shop-list,.content .tab-content .tea-list {
+    display: none;
+}
+.content .tab-content .shop-list.show,.content .tab-content .tea-list.show {
+    display: block;
+}
+.content .tab-content .item > div {
+    float: left;
+}
+.content .tab-content .item .banner {
+    width: 20%;
+}
+.content .tab-content .item .banner img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.tab-content .item {
+    width: 100%;
+    padding: 10px;
+}
+.tab-content .item .shop-info,
+.tab-content .item .tea-info  {
+    margin-left: 2%;
+    width: 48%;
+}
+.tab-content .item .shop-info p {
+    margin-bottom: 0;
+}
+.tab-content .item .shop-info p:nth-child(1),
+.tab-content .item .tea-info p:nth-child(1) {
+    font-weight: 700;
+    font-size: 15px;
+    color: #000;
+}
+.tab-content .shop-list .item .shop-info p:nth-child(2) {
+    font-size: 12px;
+}
+.tab-content .shop-list .item .shop-info p:nth-child(3) span:nth-child(1) {
+    font-size: 15px;
+    color: #f65353;
+}
+.tab-content .shop-list .item .shop-info p:nth-child(3) span:nth-child(2) {
+    font-size: 12px;
+}
+.tab-content .item .dis,
+.tab-content .item .shop {
+    width: 30%;
+}
+.tab-content .shop-list .item .dis p:nth-child(1) {
+    margin-bottom: 15px;
+}
+.tab-content .shop-list .item .dis p:nth-child(1) svg {
+    font-size: 20px;
+}
+.tab-content .shop-list .item .dis p:nth-child(1) span {
+    font-size: 14px;
+}
+.tab-content.active > div > a > .item{
+    position: relative;
+    height: 16em;
+}
+.tab-content.active > div > a > .item .banner {
+    width: 94%;
+    position: absolute;
+}
+.tab-content.active > div > a > .item > div {
+     position: relative;
+ }
+.tab-content.active > div > a > .item .banner img {
+    width: 100%;
+    height: 15em;
+    border-radius: 10px;
+}
+.tab-content.active > div > a > .item > .shop-info,
+.tab-content.active > div > a > .item > .tea-info {
+    margin-top: 10em;
+    margin-left: 2em;
+}
+.tab-content.active > div > a > .item > .dis,
+.tab-content.active > div > a > .item > .shop {
+    margin-top: 10em;
+}
+.tab-content > div > a > .item .tea-info > p:nth-child(3) {
+    font-size: 12px;
+}
+.tab-content > div > a > .item .shop p {
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+}
+.tab-content > div > a > .item .shop p:nth-child(2) {
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.tab-content > div > a > .item .shop > p > svg {
+    font-size: 16px;
+}
+.tab-content .tea-list {
+    background-color: #f3f3f3;
+}
+.tab-content .tea-list .item {
+    position: relative;
+}
+.tab-content .tea-list .item > .sign {
+    position: absolute;
+    border: 1px solid #e53031;
+    padding: 2px 10px;
+    top: 17%;
+    left: 0;
+    color: #e53031;
+    font-size: 15px;
+    border-radius: 45%;
+    transform:rotate(-45deg);
+    z-index: 1;
+}
+.tab-content.active .tea-list .item > .sign {
+    top: 15px;
+    left: 2px;
+}
+.tab-content.active .tea-list .item .shop > p:first-child {
+    display: none;
+}
+.tab-content.active > div > a > .item .shop p:nth-child(2) {
+    margin-top: 24px;
+}

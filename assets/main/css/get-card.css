@@ -1,0 +1,113 @@
+html, body {
+    background-color: #f6f6f6;
+    color: #a2a2a2;
+}
+
+.wrap {
+    margin: -20px -20px 0 -20px;
+}
+
+.header {
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ededed;
+}
+
+.header > div {
+    float: left;
+}
+
+.header .card-icon {
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    background-color: #ddd;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.header .card-icon > svg {
+    font-size: 40px;
+}
+
+.header .card-details {
+    margin-left: 5px;
+}
+
+.header .card-details p {
+    font-weight: 700;
+    color: #000;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.order-info {
+    padding: 15px 10px;
+    background-color: #fff;
+
+}
+
+.order-info span:nth-child(2) {
+    color: #000;
+}
+
+.tea {
+    padding: 15px 10px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.tea span {
+    padding-top: 3px;
+    float: left;
+}
+
+.tea a {
+    float: right;
+}
+
+.tea a svg {
+    font-size: 30px;
+}
+
+.pay {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3.5em;
+}
+
+.pay p {
+    height: 100%;
+    float: left;
+    width: 66%;
+    padding-left: 10px;
+    background-color: #fff;
+    padding-top: 13px;
+}
+
+.pay p > span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.pay p span:nth-child(1) {
+    color: #000;
+}
+
+.pay p span:nth-child(2) {
+    color: #F65353;
+}
+
+.pay a {
+    height: 100%;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    float: left;
+    width: 34%;
+    background-color: #5edb88;
+    padding-top: 17px;
+}

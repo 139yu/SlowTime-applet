@@ -1,0 +1,51 @@
+.reward {
+    width: 100%;
+    position: absolute;
+    bottom: 100px;
+    padding: 15px;
+}
+.reward ul {
+    background-image: linear-gradient(#f7d7c7, #f0b49e);
+    border-radius: 10px;
+    padding: 10px 20px 0 20px;
+}
+.reward ul li {
+    float: left;
+    width: 48%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    border: 1px solid #f79474;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.reward ul li svg {
+    font-size: 30px;
+}
+.reward ul li:nth-child(1),
+.reward ul li:nth-child(3) {
+    margin-right: 2%;
+}
+.reward ul li:nth-child(2),
+.reward ul li:nth-child(4) {
+    margin-left: 2%;
+}
+.reward .reward-tea {
+    text-align: center;
+}
+.reward ul li:last-child {
+    width: 100%;
+    border: none;
+    margin-bottom: 0;
+}
+.reward .reward-tea a {
+    display: inline-block;
+    width: 80%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-image: linear-gradient(to right , #f8a55a, #f6652c);
+    border-radius: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}

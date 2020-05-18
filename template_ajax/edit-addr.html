@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8"/>
+    <title>编辑地址</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+
+    <!-- ================== BEGIN BASE CSS STYLE ================== -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"/>
+    <link href="../assets/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/animate/animate.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/style.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/style-responsive.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/theme/default.css" rel="stylesheet" id="theme"/>
+    <link rel="stylesheet" href="../assets/main/icon/iconfont.css">
+    <link rel="stylesheet" href="../assets/main/css/basic.css">
+    <link rel="stylesheet" href="../assets/main/css/edit-addr.css">
+    <!-- ================== END BASE CSS STYLE ================== -->
+
+    <!-- ================== BEGIN BASE JS ================== -->
+    <script src="../assets/main/icon/iconfont.js"></script>
+    <!-- ================== END BASE JS ================== -->
+</head>
+<body>
+
+<div class="wrap">
+    <form>
+        <div class="form-group clearfix">
+            <label>联系人</label>
+            <input type="text" placeholder="请输入联系人">
+        </div>
+        <div class="form-group clearfix">
+            <label>性别</label>
+            <div class="radio">
+                <label class="active">
+                    先生
+                    <input id="male" type="radio" name="gender" value="1" checked />
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    女士
+                    <input id="female" type="radio" name="gender" value="0" />
+                </label>
+            </div>
+        </div>
+        <div class="form-group clearfix">
+            <label>联系方式</label>
+            <input type="text" placeholder="请输入联系方式">
+        </div>
+        <div class="form-group clearfix">
+            <label>选择地址</label>
+            <a href="">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-you"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="form-group clearfix">
+            <label>详细地址</label>
+            <input type="text">
+        </div>
+        <div class="form-group clearfix">
+            <label>默认地址</label>
+            <div class="switcher">
+                <input type="checkbox" name="address" id="address" checked="" value="1">
+                <label for="address"></label>
+            </div>
+        </div>
+        <div class="btn-group">
+            <a href="add-addr.html">取消</a>
+            <button class="submit btn">保存</button>
+        </div>
+    </form>
+</div>
+
+<!-- ================== BEGIN BASE JS ================== -->
+<script src="../assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+<script src="../assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
+<script src="../assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="../assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!--[if lt IE 9]>
+<script src="../assets/crossbrowserjs/html5shiv.js"></script>
+<script src="../assets/crossbrowserjs/respond.min.js"></script>
+<script src="../assets/crossbrowserjs/excanvas.min.js"></script>
+<![endif]-->
+<script src="../assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="../assets/plugins/js-cookie/js.cookie.js"></script>
+<script src="../assets/js/theme/default.min.js"></script>
+<script src="../assets/js/apps.min.js"></script>
+<script src="../assets/main/js/edit-addr.js"></script>
+<!-- ================== END BASE JS ================== -->
+</body>
+</html>

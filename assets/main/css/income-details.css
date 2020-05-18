@@ -1,0 +1,129 @@
+html,body {
+    background-color: #f6f6f6;
+    overflow: hidden;
+}
+select::-ms-expand{display:none;}
+select{
+    border: none;
+    outline: none;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background-color: #fff;
+}
+.header-nav .nav .nav-items {
+    width: 33.33%;
+}
+.header-nav .nav-tabs {
+    background-color: #fff;
+}
+.header-nav .nav-tabs .nav-items.show .nav-link,.header-nav .nav-tabs .nav-link.active {
+    background-color:#58d481;
+    color: #fff;
+}
+.header-nav .nav-tabs .nav-link {
+    margin-right: 0;
+    text-align: center;
+}
+.wrap .tab-content {
+    padding: 0;
+    margin-top: 10px;
+}
+.wrap .tab-content > .all-income {
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    height: 25em;
+}
+.wrap .tab-content > .all-income > .all-income {
+    margin-bottom: 10px;
+}
+.wrap .tab-content > .all-income > .all-income > p {
+    float: left;
+    width: 50%;
+}
+.wrap .tab-content > .all-income > .all-income > p:nth-child(1) span {
+    font-size: 20px;
+}
+.wrap .tab-content > .all-income > .all-income > p:nth-child(1) span:nth-child(1) {
+    color: #000;
+}
+.wrap .tab-content > .all-income > .all-income > p:nth-child(1) span:nth-child(2) {
+    color: #f24848;
+}
+.wrap .tab-content > .all-income > .all-income > p:nth-child(2) {
+    text-align: right;
+}
+.wrap .tab-content > .all-income .select-view {
+    font-size: 14px;
+}
+.wrap .tab-content > .all-income > .select-view span {
+    font-size: 12px;
+}
+.wrap .tab-content > .all-income > .view > div {
+    display: none;
+}
+.wrap .tab-content > .all-income > .view > div.active {
+    display: block;
+}
+.wrap .tab-content > .all-income > .view {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.all-income > .view > div {
+    width: 100%;
+    overflow: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.all-income > .view > div > .data li {
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+}
+.all-income > .view > div .data li p {
+    text-align: center;
+    color: #000;
+}
+.all-income > .view > div .data li p:nth-child(2) {
+    background-color: #a2a2a2;
+    height: 1px;
+}
+.income-details {
+    background-color: #f6f6f6;
+}
+.income-details > .all-income {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+}
+.income-details > .all-income p,.discount-details > .discount > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ededed;
+    padding-left: 15px;
+}
+.income-details > .all-income p span,.discount-details > .discount > p span {
+    font-size: 20px;
+    color: #000;
+}
+.income-details > .all-income p span:nth-child(2),.discount-details > .discount > p span:nth-child(2) {
+    color: #f24848;
+}
+.income-details > .all-income .select-date > div,.discount-details > .discount > .select-date > div {
+    float: left;
+    width: 50%;
+    padding: 15px 10px;
+}
+.income-details > .all-income .select-date > div label,.discount-details > .discount > .select-date > div label {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.income-details > .all-income .select-date > div > input,.discount-details > .discount > .select-date > div > input {
+    border: none;
+    outline: none;
+    display: inline-block;
+    width: 100px;
+}

@@ -1,0 +1,15 @@
+.wrap form {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+.wrap .form-group input {
+    background-color: #F7F7F7;
+}
+.wrap form .submit {
+    width: 100%;
+    background-color: #58d421;
+    border: 1px solid #58d421;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

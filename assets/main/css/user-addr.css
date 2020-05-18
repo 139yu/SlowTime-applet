@@ -1,0 +1,64 @@
+html,body {
+    background-color: #fff;
+}
+.wrap {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.addr-list .addr-items {
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.addr-list .addr-items .details {
+    float: left;
+    width: 70%;
+}
+.addr-list .addr-items .details .addr-details {
+    margin-bottom: 10px;
+}
+.addr-list .addr-items .details .addr-details p {
+    color: #000;
+    font-weight: 600;
+}
+.addr-list .addr-items .details .user-info span {
+    display: inline;
+}
+.addr-list .addr-items .details .user-info span:nth-child(1),
+.addr-list .addr-items .details .user-info span:nth-child(2) {
+    font-weight: 600;
+    margin-right: 20px;
+}
+.addr-list .addr-items .operation {
+    float: left;
+    width: 30%;
+}
+.addr-list .addr-items .operation .edit,
+.addr-list .addr-items .operation .del{
+    float: left;
+    padding-top: 15px;
+}
+.addr-list .addr-items .operation .edit {
+    margin-right: 15px;
+}
+.addr-list .addr-items .operation .edit span {
+    font-size: 20px;
+}
+.addr-list .addr-items .operation .del a {
+    display: block;
+    height: 100%;
+}
+.wrap .modal-content {
+    padding: 15px;
+}
+.wrap .modal-content .msg {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.wrap .modal-content .btn-wrap {
+    border-top: none;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

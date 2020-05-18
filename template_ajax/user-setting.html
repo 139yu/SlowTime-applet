@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>卡券详情</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+
+    <!-- ================== BEGIN BASE CSS STYLE ================== -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"/>
+    <link href="../assets/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/animate/animate.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/style.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/style-responsive.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/theme/default.css" rel="stylesheet" id="theme"/>
+    <link rel="stylesheet" href="../assets/main/icon/iconfont.css">
+    <link rel="stylesheet" href="../assets/main/css/basic.css">
+    <link rel="stylesheet" href="../assets/main/css/user-setting.css">
+    <!-- ================== END BASE CSS STYLE ================== -->
+
+    <!-- ================== BEGIN BASE JS ================== -->
+    <script src="../assets/main/icon/iconfont.js"></script>
+    <!-- ================== END BASE JS ================== -->
+</head>
+<body>
+<div class="wrap">
+    <div class="row">
+        <div class="col-7">
+            <p>我的头像</p>
+        </div>
+        <div class="col-5">
+            <div class="avatar">
+                <a href="#change-avatar" data-toggle="modal">
+                    <img src="../assets/img/user/user-1.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="phone row">
+        <div class="col-7">
+            <span>手机号</span>
+        </div>
+        <div class="col-5">
+            <span>123412341</span>
+        </div>
+    </div>
+    <div class="name row">
+        <div class="col-7">
+            <p>姓名</p>
+        </div>
+        <div class="col-5">
+            <a href="change-name.html">
+                <span>123412341</span>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-you"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="gender row">
+        <div class="col-7">
+            <p>性别</p>
+        </div>
+        <div class="col-5">
+            <a href="#change-gender" data-toggle="modal">
+                <span>未设置</span>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-you"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="pwd row">
+        <div class="col-7">
+            <p>修改会员卡支付密码</p>
+        </div>
+        <div class="col-5">
+            <a href="change-pwd.html">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-you"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="option row">
+        <div class="col-7">
+            <p>意见反馈</p>
+        </div>
+        <div class="col-5">
+            <a href="option.html">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-you"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="about-us row">
+        <div class="col-7">
+            <p>关于我们</p>
+        </div>
+        <div class="col-5">
+            <a href="about-us.html">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-you"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="customer row">
+        <div class="col-7">
+            <p>联系客服</p>
+        </div>
+        <div class="col-5">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-you"></use>
+            </svg>
+        </div>
+    </div>
+    <div class="row logout">
+        <div class="col-12">
+            <a href="">退出账号</a>
+        </div>
+    </div>
+    <div class="modal change-gender fade" id="change-gender" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <ul>
+                    <li data-dismiss="modal">男</li>
+                    <li data-dismiss="modal">女</li>
+                </ul>
+                <div class="cancel">
+                    <a href="javascript:;" data-dismiss="modal">取消</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal change-avatar fade" id="change-avatar" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="form-group">
+                    <label for="camera">拍照</label>
+                    <input type="file" accept="video/*" class="form-control" id="camera">
+                </div>
+                <div class="form-group">
+                    <label for="album">从相册中选择</label>
+                    <input type="file" accept="image/*" class="form-control" id="album">
+                </div>
+                <div class="cancel">
+                    <a href="javascript:;" data-dismiss="modal">取消</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<!-- ================== BEGIN BASE JS ================== -->
+<script src="../assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+<script src="../assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
+<script src="../assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="../assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!--[if lt IE 9]>
+<script src="../assets/crossbrowserjs/html5shiv.js"></script>
+<script src="../assets/crossbrowserjs/respond.min.js"></script>
+<script src="../assets/crossbrowserjs/excanvas.min.js"></script>
+<![endif]-->
+<script src="../assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="../assets/plugins/js-cookie/js.cookie.js"></script>
+<script src="../assets/js/theme/default.min.js"></script>
+<script src="../assets/js/apps.min.js"></script>
+<script src="../assets/main/js/user-setting.js"></script>
+</html>
