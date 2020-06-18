@@ -1,0 +1,57 @@
+body,html {
+    background-color: #fff;
+}
+.vip-info > .row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.vip-info > .row > div:nth-child(1) {
+    text-align: left;
+}
+.vip-info > .row > div:nth-child(2) {
+    text-align: right;
+}
+.vip-info > .row.name {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f6f6f6;
+}
+.vip-info > .row.name > div {
+    font-size: 18px;
+}
+.vip-info > .row.name > div:nth-child(2) {
+    color:#000;
+    font-weight: 600;
+}
+.fu-list {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.fu-list .items {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 1px solid #e3e3e3;
+}
+.fu-list .items:nth-child(1),
+.fu-list .items:nth-child(2) {
+    border-bottom: none;
+}
+.fu-list .items:nth-child(1),
+.fu-list .items:nth-child(3) {
+    border-right: none;
+}
+.fu-list .items:nth-child(1) a,
+.fu-list .items:nth-child(3) a {
+    color: #38853b;
+}
+.code {
+    margin-left: -15px;
+    margin-right: -15px;
+    text-align: center;
+}
+.code img {
+    width: 50%;
+}

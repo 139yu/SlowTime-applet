@@ -49,6 +49,9 @@
     display: inline-block;
 }
 .content > .nav-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin-left: -20px;
     margin-right: -20px;
     margin-top: 10px;
@@ -59,22 +62,12 @@
     padding-left: 15px;
 }
 .nav-wrap > div {
-    display: inline-block;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
 }
-.nav-wrap > .shop-optional {
-    width: 30%;
-}
-.nav-wrap > .nav-items {
-     width: 20%;
- }
 .nav-wrap > .nav-items.active {
     color: #64e28e;
-}
-.nav-wrap > .local-shop {
-    width: 25%;
 }
 .nav-wrap > .shop-optional > .optional-list {
     padding-left: 0;

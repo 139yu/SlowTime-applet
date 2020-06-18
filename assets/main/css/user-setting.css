@@ -32,7 +32,7 @@
     background-color: #fbfbfb;
     padding: 20px;
 }
-.change-gender ul li {
+.set-gender ul li {
     text-align: center;
     background-color: #fff;
     border-bottom: 1px solid #e5e5e5;
@@ -50,7 +50,7 @@
     padding: 5px 20px;
     border-radius: 5px;
 }
-.change-avatar .modal-content .form-group {
+.set-avatar .modal-content .form-group {
     text-align: center;
     margin-bottom: 0;
     border-bottom: 1px solid #e5e5e5;
@@ -58,14 +58,14 @@
     padding-bottom: 10px;
     background-color: #fff;
 }
-.change-avatar .modal-content .form-group input {
+.set-avatar .modal-content .form-group input {
     opacity: 0;
     width: 0;
     height: 0;
     padding: 0;
     margin: 0;
 }
-.change-avatar .modal-content .form-group label {
+.set-avatar .modal-content .form-group label {
     font-weight: 400;
     color: #07c160;
     margin-bottom: 0;

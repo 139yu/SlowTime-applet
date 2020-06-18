@@ -1,0 +1,50 @@
+.wrap .title h4{
+    margin-top: 15px;
+    background-color: #fff;
+    padding: 15px;
+    color: #2aded2;
+}
+.recharge-amount {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #fff;
+}
+.options {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.options .option {
+    display: inline-flex;
+    flex-basis: 30%;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.options .option > input {
+    display: none;
+}
+.options .option label {
+    color: #2aded2;
+    border: 1px solid #2aded2;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+.options .option label.active {
+    background-color: #2aded2;
+    color: #fff;
+}
+.btn-wrap {
+    margin-top: 15px;
+    text-align: center;
+}
+.btn-wrap .btn {
+    display: inline-block;
+    background-color: #2aded2;
+    color: #fff;
+    padding: 5px 50px;
+}

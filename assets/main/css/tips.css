@@ -1,0 +1,43 @@
+body,html {
+    background-color: #fff;
+    font-size: 14px;
+    color: #000;
+}
+.content {
+    padding: 10px;
+}
+.content ul li {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.content ul li:last-child >input {
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+
+}
+.check-wrap,.radio-wrap {
+    padding-left: 15px;
+}
+.check-wrap .checkbox:first-child {
+    margin-left: 15px;
+}
+.tips {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.btn-wrap button {
+    margin-top: 20px;
+    border-radius: 10px;
+    display: block;
+    width: 99%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    text-align: center;
+    background-color: #42c1ff;
+}

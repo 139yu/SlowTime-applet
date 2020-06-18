@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>快速预约</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+
+    <!-- ================== BEGIN BASE CSS STYLE ================== -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"/>
+    <link href="../assets/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/animate/animate.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/style.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/style-responsive.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/theme/default.css" rel="stylesheet" id="theme"/>
+    <link href="../assets/plugins/select2/dist/css/select2.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../assets/main/icon/iconfont.css">
+    <link rel="stylesheet" href="../assets/main/css/basic.css">
+    <link rel="stylesheet" href="../assets/main/css/fast-appointment.css">
+</head>
+<body>
+<div class="wrap">
+    <div class="search-bar m-t-10">
+        <div class="select-items">
+            <label for="shop">所有店铺</label>
+            <select class="form-control" id="shop" data-size="10" data-live-search="true"
+                    data-style="btn-info">
+                <option value="1" selected>所有店铺</option>
+                <option value="2">南村万达店</option>
+            </select>
+        </div>
+        <div class="select-items">
+            <label for="pro">所有项目</label>
+            <select class="form-control" id="pro" data-size="10" data-live-search="true"
+                    data-style="btn-info">
+                <option value="1" selected>所有项目</option>
+                <option value="2">推拿</option>
+                <option value="2">美容</option>
+            </select>
+        </div>
+        <div class="select-items">
+            <label for="date">所有日期</label>
+            <select class="form-control" id="date" data-size="10" data-live-search="true"
+                    data-style="btn-info">
+                <option value="1" selected>所有日期</option>
+                <option value="2">今天</option>
+                <option value="2">明天</option>
+            </select>
+        </div>
+    </div>
+    <div class="data-list">
+        <div class="data-items">
+           <div class="items-info">
+               <a href="tea-index.html" class="clearfix">
+                   <div class="avatar m-r-10">
+                       <img src="../assets/img/user/user-14.jpg" alt="">
+                   </div>
+                   <div class="tea-info">
+                       <p class="m-b-5">禤国维</p>
+                       <p><span class="tag">推拿大师</span></p>
+                       <p>这是地址111</p>
+                       <p>
+                           <span>评论 414</span>
+                           <span>服务 111</span>
+                       </p>
+                   </div>
+               </a>
+           </div>
+            <div class="appointment">
+                <a href="tea-index.html">
+                    <button type="button" class="btn btn-info">预约技师</button>
+                    <button type="button" class="btn btn-warning">预约服务</button>
+                    <button type="button" class="btn btn-grey">暂无排班</button>
+                </a>
+            </div>
+            <div class="fu-list">
+                <span class="items">针灸</span>
+                <span class="items">推拿</span>
+                <span class="items">按摩</span>
+                <span class="items">磁力水光能量管理</span>
+            </div>
+        </div>
+        <div class="data-items">
+            <div class="items-info">
+                <a href="tea-index.html" class="clearfix">
+                    <div class="avatar m-r-10">
+                        <img src="../assets/img/user/user-14.jpg" alt="">
+                    </div>
+                    <div class="tea-info">
+                        <p class="m-b-5">禤国维</p>
+                        <p><span class="tag">推拿大师</span></p>
+                        <p>这是地址111</p>
+                        <p>
+                            <span>评论 414</span>
+                            <span>服务 111</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="appointment">
+                <a href="javascript:;">
+                    <button type="button" class="btn btn-info">预约当天服务</button>
+                    <button type="button" class="btn btn-warning">预约上门服务</button>
+                    <button type="button" class="btn btn-grey">暂无排班</button>
+                </a>
+            </div>
+            <div class="fu-list">
+                <span class="items">针灸</span>
+                <span class="items">推拿</span>
+                <span class="items">按摩</span>
+                <span class="items">磁力水光能量管理</span>
+            </div>
+        </div>
+        <div class="data-items">
+            <div class="items-info">
+                <a href="tea-index.html" class="clearfix">
+                    <div class="avatar m-r-10">
+                        <img src="../assets/img/user/user-14.jpg" alt="">
+                    </div>
+                    <div class="tea-info">
+                        <p class="m-b-5">禤国维</p>
+                        <p><span class="tag">推拿大师</span></p>
+                        <p>这是地址111</p>
+                        <p>
+                            <span>评论 414</span>
+                            <span>服务 111</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="appointment">
+                <a href="javascript:;">
+                    <button type="button" class="btn btn-info">预约当天服务</button>
+                    <button type="button" class="btn btn-warning">预约上门服务</button>
+                    <button type="button" class="btn btn-grey">暂无排班</button>
+                </a>
+            </div>
+            <div class="fu-list">
+                <span class="items">针灸</span>
+                <span class="items">推拿</span>
+                <span class="items">按摩</span>
+                <span class="items">磁力水光能量管理</span>
+            </div>
+        </div>
+        <div class="data-items">
+            <div class="items-info">
+                <a href="tea-index.html" class="clearfix">
+                    <div class="avatar m-r-10">
+                        <img src="../assets/img/user/user-14.jpg" alt="">
+                    </div>
+                    <div class="tea-info">
+                        <p class="m-b-5">禤国维</p>
+                        <p><span class="tag">推拿大师</span></p>
+                        <p>这是地址111</p>
+                        <p>
+                            <span>评论 414</span>
+                            <span>服务 111</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="appointment">
+                <a href="javascript:;">
+                    <button type="button" class="btn btn-info">预约当天服务</button>
+                    <button type="button" class="btn btn-warning">预约上门服务</button>
+                    <button type="button" class="btn btn-grey">暂无排班</button>
+                </a>
+            </div>
+            <div class="fu-list">
+                <span class="items">针灸</span>
+                <span class="items">推拿</span>
+                <span class="items">按摩</span>
+                <span class="items">磁力水光能量管理</span>
+            </div>
+        </div>
+        <div class="data-items">
+            <div class="items-info">
+                <a href="tea-index.html" class="clearfix">
+                    <div class="avatar m-r-10">
+                        <img src="../assets/img/user/user-14.jpg" alt="">
+                    </div>
+                    <div class="tea-info">
+                        <p class="m-b-5">禤国维</p>
+                        <p><span class="tag">推拿大师</span></p>
+                        <p>这是地址111</p>
+                        <p>
+                            <span>评论 414</span>
+                            <span>服务 111</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="appointment">
+                <a href="javascript:;">
+                    <button type="button" class="btn btn-info">预约当天服务</button>
+                    <button type="button" class="btn btn-warning">预约上门服务</button>
+                    <button type="button" class="btn btn-grey">暂无排班</button>
+                </a>
+            </div>
+            <div class="fu-list">
+                <span class="items">针灸</span>
+                <span class="items">推拿</span>
+                <span class="items">按摩</span>
+                <span class="items">磁力水光能量管理</span>
+            </div>
+        </div>
+        <div class="data-items">
+            <div class="items-info">
+                <a href="tea-index.html" class="clearfix">
+                    <div class="avatar m-r-10">
+                        <img src="../assets/img/user/user-14.jpg" alt="">
+                    </div>
+                    <div class="tea-info">
+                        <p class="m-b-5">禤国维</p>
+                        <p><span class="tag">推拿大师</span></p>
+                        <p>这是地址111</p>
+                        <p>
+                            <span>评论 414</span>
+                            <span>服务 111</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="appointment">
+                <a href="javascript:;">
+                    <button type="button" class="btn btn-info">预约当天服务</button>
+                    <button type="button" class="btn btn-warning">预约上门服务</button>
+                    <button type="button" class="btn btn-grey">暂无排班</button>
+                </a>
+            </div>
+            <div class="fu-list">
+                <span class="items">针灸</span>
+                <span class="items">推拿</span>
+                <span class="items">按摩</span>
+                <span class="items">磁力水光能量管理</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="../assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+<script src="../assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
+<script src="../assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="../assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!--[if lt IE 9]>
+<script src="../assets/crossbrowserjs/html5shiv.js"></script>
+<script src="../assets/crossbrowserjs/respond.min.js"></script>
+<script src="../assets/crossbrowserjs/excanvas.min.js"></script>
+<![endif]-->
+<script src="../assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="../assets/plugins/js-cookie/js.cookie.js"></script>
+<script src="../assets/js/theme/default.min.js"></script>
+<script src="../assets/js/apps.min.js"></script>
+<script src="../assets/main/js/select.js"></script>
+</body>
+</html>

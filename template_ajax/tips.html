@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"/>
+    <link href="../assets/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/animate/animate.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/style.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/style-responsive.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/theme/default.css" rel="stylesheet" id="theme"/>
+    <link href="../assets/plugins/select2/dist/css/select2.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../assets/main/css/basic.css">
+    <link rel="stylesheet" href="../assets/main/css/tips.css">
+</head>
+<body>
+<div class="content">
+    <p>尊敬的客人：</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;根据政府部门相关要求，进入公共场所请佩戴口罩并配合体温检测，为保障您和他人的健康，请如实逐项填报一下信息：</p>
+    <form action="">
+        <ul>
+            <li>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.最近14天内您是否曾经在湖北省居住或到过湖北省？</p>
+                <div class="radio-wrap">
+                    <div class="radio radio-css radio-inline">
+                        <input type="radio" name="trip" id="activeTrip" value="0"/>
+                        <label for="activeTrip">是</label>
+                    </div>
+                    <div class="radio radio-css radio-inline">
+                        <input type="radio" name="trip" id="inactiveTrip" value="1"/>
+                        <label for="inactiveTrip">否</label>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.最近14天内您是否直接或间接接触过湖北省来往人员？</p>
+                <div class="radio-wrap">
+                    <div class="radio radio-css radio-inline">
+                        <input type="radio" name="touch" id="activeTouch" value="0"/>
+                        <label for="activeTouch">是</label>
+                    </div>
+                    <div class="radio radio-css radio-inline">
+                        <input type="radio" name="touch" id="inactiveTouch" value="1"/>
+                        <label for="inactiveTouch">否</label>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.最近一周您是否有一下症状？</p>
+                <div class="check-wrap">
+                    <div class="checkbox checkbox-css checkbox-inline">
+                        <input type="checkbox" id="symptom1" name="symptom1" value="1" />
+                        <label for="symptom1">发热</label>
+                    </div>
+                    <div class="checkbox checkbox-css checkbox-inline">
+                        <input type="checkbox" id="symptom2" name="symptom2" value="2" />
+                        <label for="symptom2">咳嗽</label>
+                    </div>
+                    <div class="checkbox checkbox-css checkbox-inline">
+                        <input type="checkbox" id="symptom3" name="symptom3" value="3" />
+                        <label for="symptom3">喉咙痛</label>
+                    </div>
+                    <div class="checkbox checkbox-css checkbox-inline">
+                        <input type="checkbox" id="symptom4" name="symptom4" value="4" />
+                        <label for="symptom4">鼻塞</label>
+                    </div>
+                    <div class="checkbox checkbox-css checkbox-inline">
+                        <input type="checkbox" id="symptom5" name="symptom5" value="5" />
+                        <label for="symptom5">头痛</label>
+                    </div>
+                    <div class="checkbox checkbox-css checkbox-inline">
+                        <input type="checkbox" id="symptom6" name="symptom6" value="6" />
+                        <label for="symptom6">腹泻</label>
+                    </div>
+                    <div class="checkbox checkbox-css checkbox-inline">
+                        <input type="checkbox" id="symptom7" name="symptom7" value="7" />
+                        <label for="symptom7">呕吐</label>
+                    </div>
+                    <div class="checkbox checkbox-css checkbox-inline">
+                        <input type="checkbox" id="symptom8" name="symptom8" value="8" />
+                        <label for="symptom8">肌肉痛和关节痛</label>
+                    </div>
+                    <div class="checkbox checkbox-css checkbox-inline">
+                        <input type="checkbox" id="symptom9" name="symptom9" value="9" />
+                        <label for="symptom9">全身乏力</label>
+                    </div>
+                    <div class="checkbox checkbox-css checkbox-inline">
+                        <input type="checkbox" id="symptom10" name="symptom10" value="10" />
+                        <label for="symptom10">其他症状</label>
+                    </div>
+                    <div class="checkbox checkbox-css checkbox-inline">
+                        <input type="checkbox" id="symptom11" name="symptom11" value="11" />
+                        <label for="symptom11">无任以上何症状</label>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <p>4.境内有效手机号：</p>
+                <input type="text" name="phone" placeholder="请输入手机号">
+            </li>
+        </ul>
+        <div class="tips">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请确认您已阅知本申报所列事项，保证以上申报内容正确属实，并愿意承担隐瞒或虚假填报的相关责任。</p>
+        </div>
+        <div class="btn-wrap">
+            <button>提交</button>
+        </div>
+    </form>
+</div>
+
+<script src="../assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+<script src="../assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
+<script src="../assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="../assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!--[if lt IE 9]>
+<script src="../assets/crossbrowserjs/html5shiv.js"></script>
+<script src="../assets/crossbrowserjs/respond.min.js"></script>
+<script src="../assets/crossbrowserjs/excanvas.min.js"></script>
+<![endif]-->
+<script src="../assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="../assets/plugins/js-cookie/js.cookie.js"></script>
+<script src="../assets/js/theme/default.min.js"></script>
+<script src="../assets/js/apps.min.js"></script>
+<script src="../assets/main/icon/iconfont.js"></script>
+<script>
+    var form = $('.content > form');
+
+    form.on('submit',function (event) {
+        alert(JSON.stringify($(this).serializeArray()))
+        event.preventDefault();
+    })
+</script>
+</body>
+</html>

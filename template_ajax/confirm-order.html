@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>确认订单</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+
+    <!-- ================== BEGIN BASE CSS STYLE ================== -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"/>
+    <link href="../assets/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/animate/animate.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/style.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/style-responsive.min.css" rel="stylesheet"/>
+    <link href="../assets/css/default/theme/default.css" rel="stylesheet" id="theme"/>
+    <link href="../assets/plugins/select2/dist/css/select2.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../assets/main/icon/iconfont.css">
+    <link rel="stylesheet" href="../assets/main/css/basic.css">
+    <link rel="stylesheet" href="../assets/main/css/confirm-order.css">
+</head>
+<body>
+<div class="wrap">
+    <ul class="info-list m-t-10">
+        <li>
+            <div class="item-inner">
+                <div class="item-title">
+                    <span>服务技师：</span>
+                </div>
+                <div class="item-input">
+                    <span>003号</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item-inner">
+                <div class="item-title">
+                    <span>服务项目：</span>
+                </div>
+                <div class="item-input">
+                    <span>脸部护理</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item-inner">
+                <div class="item-title">
+                    <span>服务店铺：</span>
+                </div>
+                <div class="item-input">
+                    <span>清荷伊美容养生店</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item-inner">
+                <div class="item-title">
+                    <span>店铺地址：</span>
+                </div>
+                <div class="item-input">
+                    <span>003号</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item-inner">
+                <div class="item-title">
+                    <span>服务时间：</span>
+                </div>
+                <div class="item-input">
+                    <span>2020-02-02 11:11</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item-inner">
+                <div class="item-title">
+                    <span>服务方式：</span>
+                </div>
+                <div class="item-input">
+                    <span>到店服务</span>
+                </div>
+            </div>
+        </li>
+        <li class="m-t-10 clearfix">
+            <div class="item-inner">
+                <div class="item-title float-left">
+                    <span>支付方式：</span>
+                </div>
+                <div class="item-input float-right pay-method">
+                    <a href="#pay-method" data-toggle="modal">
+                        <span>在线支付</span>
+                        <span class="icon iconfont icon-you"></span>
+                    </a>
+                </div>
+            </div>
+        </li>
+        <li class="m-t-10 clearfix">
+            <div class="item-inner">
+                <div class="item-title float-left">
+                    <span>卡券：</span>
+                </div>
+                <div class="item-input float-right card m-b-0">
+                    <a href="#card" data-toggle="modal">
+                        <span>不使用卡券</span>
+                        <span class="icon iconfont icon-you"></span>
+                    </a>
+                </div>
+            </div>
+        </li>
+        <li class="m-t-10 clearfix">
+            <div class="item-inner">
+                <div class="item-title float-left">
+                    <span>预约定金：</span>
+                </div>
+                <div class="item-input float-right card m-b-0">
+                    <span>￥200.00</span>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="pay clearfix">
+        <div class="count float-left m-l-10">
+            <span>实付款：</span>
+            <span>￥200.00</span>
+        </div>
+        <div class="btn-wrap float-right m-l-10">
+            <a href="pay-method.html">支付</a>
+        </div>
+    </div>
+    <div class="modal set-pay-method fade" id="pay-method" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <ul>
+                    <li data-dismiss="modal">在线支付</li>
+                </ul>
+                <div class="cancel">
+                    <a href="javascript:;" data-dismiss="modal">取消</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal set-card fade" id="card" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <ul>
+                    <li data-dismiss="modal">会员卡</li>
+                    <li data-dismiss="modal">优惠券</li>
+                    <li data-dismiss="modal">次卡</li>
+                    <li data-dismiss="modal">不使用卡券</li>
+                </ul>
+                <div class="cancel">
+                    <a href="javascript:;" data-dismiss="modal">取消</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+<script src="../assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
+<script src="../assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="../assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!--[if lt IE 9]>
+<script src="../assets/crossbrowserjs/html5shiv.js"></script>
+<script src="../assets/crossbrowserjs/respond.min.js"></script>
+<script src="../assets/crossbrowserjs/excanvas.min.js"></script>
+<![endif]-->
+<script src="../assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="../assets/plugins/js-cookie/js.cookie.js"></script>
+<script src="../assets/js/theme/default.min.js"></script>
+<script src="../assets/js/apps.min.js"></script>
+<script>
+    var setPayMethod = $('.set-pay-method .modal-content > ul > li')
+    var payMethod = $('.pay-method > a > span:first-child')
+    setPayMethod.on('click', function () {
+        payMethod[0].innerText = $(this)[0].innerText
+    })
+    var setCard = $('.set-card .modal-content > ul > li')
+    var card = $('.card > a > span:first-child')
+    setCard.on('click', function () {
+        card[0].innerText = $(this)[0].innerText
+    })
+</script>
+</body>
+</html>

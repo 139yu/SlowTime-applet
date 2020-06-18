@@ -5,12 +5,8 @@ html,body {
     margin: -20px -20px 3em -20px;
 }
 .header {
-    padding: 45px 10px 50px 10px;
+    padding: 45px 10px 0 10px;
     background-color: #1bb551;
-}
-.header .avatar {
-    display: inline-block;
-    padding-left: 15px;
 }
 .header .avatar img {
     width: 4em;
@@ -18,28 +14,45 @@ html,body {
     border-radius: 50%;
     border: 5px solid #37c36c;
 }
-.header .username {
-    display: inline-block;
+.header .user-info p{
     color: #fff;
 }
-.header .setting {
-    text-align: right;
-    padding-right: 20px;
-    padding-top: 18px;
+.header .user-info p:nth-child(1) span {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #ffd04e;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #ff1e10;
+}
+.header .row:nth-child(2) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #96ca4b;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+}
+.header .row:nth-child(2) > div {
+    border-right: 1px solid #ccc;
+}
+.header .row:nth-child(2) > div:last-child {
+    border-right: none;
 }
 .header .setting a > svg {
     font-size: 20px;
 }
-.user-info {
+.user-fu {
     background-color: #fff;
     border-radius: 20px 20px 0 0;
     position: relative;
     z-index: 1021;
-    margin-top: -20px;
     padding-top: 15px;
     padding-bottom: 20px;
 }
-.user-info ul li {
+.user-fu ul li {
     width: 50%;
     float: left;
     text-align: center;
@@ -48,19 +61,20 @@ html,body {
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.user-info ul li:nth-child(2),
-.user-info ul li:nth-child(4),
-.user-info ul li:nth-child(6) {
+.user-fu ul li:nth-child(2),
+.user-fu ul li:nth-child(4),
+.user-fu ul li:nth-child(6),
+.user-fu ul li:nth-child(8) {
     border-right: none;
 }
-.user-info ul li:nth-child(5),
-.user-info ul li:nth-child(6) {
+.user-fu ul li:nth-child(7),
+.user-fu ul li:nth-child(8) {
     border-bottom: none;
 }
-.user-info ul li a svg {
+.user-fu ul li a svg {
     font-size: 50px;
 }
-.user-info ul li a p {
+.user-fu ul li a p {
     color: #000;
     font-size: 14px;
 }

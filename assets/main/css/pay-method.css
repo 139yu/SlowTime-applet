@@ -1,0 +1,25 @@
+label {
+    width: 100%;
+}
+.widget-list-media svg {
+    font-size: 25px;
+}
+.widget-list-action input {
+    margin-left: 30px;
+}
+.pay {
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.pay .count {
+    padding: 10px;
+}
+.pay .confirm a {
+    display: block;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #d84034;;
+}

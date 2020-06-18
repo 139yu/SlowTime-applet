@@ -1,0 +1,289 @@
+html, body {
+    overflow-x: hidden;
+    background-color: #efeff4;
+}
+.tea-info {
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.tea-info .bg {
+    border-radius: 50% / 0 0 100% 100%;
+    height: 150px;
+    width: 160%;
+    margin-left: -30%;
+    background-color: #E1B36B;
+}
+
+.tea-info .tea-header {
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 0 8px 24px 3px rgba(195, 194, 194, 0.17);
+}
+
+.tea-info .tea-header {
+    padding: 10px;
+    box-shadow: 0 8px 24px 3px rgba(195, 194, 194, 0.17);
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: -111px;
+}
+
+.tea-info .tea-header .avatar {
+    position: relative;
+}
+
+.tea-info .tea-header .avatar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 10px #888;
+}
+
+.tea-info .tea-header .avatar > span {
+    font-size: 14px;
+    background-color: #fff;
+    color: #DDB374;
+    border-radius: 20px;
+    border: 1px solid #DDB374;
+    padding: 4px 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tea-info .tea-header .avatar > a {
+    font-size: 14px;
+    display: table;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid #DDB374;
+    color: #DDB374;
+    padding: 4px 8px;
+    border-radius: 20px;
+}
+
+.tea-info .tea-header .avatar > a > span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tea-name > p > img {
+    width: 14px;
+    vertical-align: middle;
+}
+
+.fu-list {
+    padding: 5px 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.tar {
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 2px 8px;
+}
+
+.tar-green {
+    color: #339933;
+    background: #d9ecd9;
+    border-color: #b3d9b3;
+}
+
+.tar-orange {
+    color: #ffb733;
+    background: #fff2d9;
+    border-color: #ffe4b3;
+}
+
+.tar-orangered {
+    color: #ff6a33;
+    background: #ffe3d9;
+    border-color: #ffc7b3;
+}
+
+.tar-blue {
+    color: #0a8cbd;
+    background-color: #95adbf;
+    border-color: #95adbf;
+}
+
+.cur-shop span {
+    font-size: 14px;
+}
+
+.cur-shop span:first-child {
+    color: #BEBEBE;
+}
+
+.score-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.score-list .items p:first-child {
+    margin-bottom: 5px;
+    color: #8C8C8C;
+    font-size: 12px;
+}
+
+.score-list .items p:last-child {
+    font-weight: 700;
+}
+.wrap .title {
+    background-color: #fff;
+    padding: 10px;
+    font-weight: 700;
+    color: #000;
+    border-top: 1px solid #ddd;
+}
+.appointment {
+    margin-bottom: 10px;
+}
+.work-list {
+    padding: 10px;
+    max-height: 20em;
+    overflow-y: scroll;
+}
+.work-list .items {
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.work-list .items .info {
+    padding: 7px;
+    float: left;
+    font-size: 14px;
+    color: #000;
+}
+.work-list .items .info p:first-child span {
+    display: inline-block;
+}
+.work-list .items .info P:last-child span:nth-child(2) {
+    position: relative;
+}
+.work-list .items .info P:last-child span:nth-child(2) select {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.work-list .items .btn-wrap {
+    float: right;
+}
+.btn-wrap > a.btn {
+    color: #fff ;
+}
+.skill {
+    background-color: #fff;
+}
+.skill-list {
+    padding:0 10px 10px 10px;
+}
+.skill-list span {
+    display: inline-block;
+    isplay: inline-block;
+    color: #928A78;
+    padding: 2px 10px;
+    background: #F9F3F3;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.experience .info p {
+    padding: 0 10px 10px 10px;
+    font-size: 14px;
+    max-height: 5em;
+    overflow-y: scroll;
+}
+.comments .title > span {
+    float: left;
+}
+.comments .title > a {
+    display: table;
+    float: right;
+    font-weight: 400;
+}
+.comments .title > a span {
+    display: table-cell;
+    vertical-align: middle;
+}
+.comment-items {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.comment-items .user .name {
+    float: left;
+}
+.comment-items .user .name img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.comment-items .user .date {
+    float: right;
+}
+.comment-items .info {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #000;
+}
+.comment-items .reply {
+    position: relative;
+    background-color: #f2f2f2;
+    padding: 10px;
+    color: #999;
+    font-size: 14px;
+}
+.comment-items .reply:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #F2F2F2;
+    position: absolute;
+    top: -5px;
+    left: 30px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.theme-panel .theme-collapse-btn {
+    display: none;
+}
+.theme-panel.active .theme-collapse-btn {
+    display: block;
+}
+.theme-panel .items {
+    padding: 10px 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+.theme-panel .items .info {
+    float: left;
+}
+.theme-panel .items .info p{
+    color: #3d4145;
+    font-size: 14px;
+}
+.theme-panel .items .icon-wrap {
+    padding-top: 5px;
+    float: right;
+    display: table;
+    vertical-align: middle;
+}
+.theme-panel .items .icon-wrap button,.theme-panel .items .icon-wrap span {
+    display: table-cell;
+}
+.online {
+    background-color: #fff;
+}
+.online .tips {
+    text-align: center;
+    padding: 20px 40px;
+    color: #000;
+    font-size: 14px;
+}

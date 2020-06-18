@@ -1,12 +1,8 @@
 <!DOCTYPE html>
-<!--[if IE 8]>
-<html lang="en" class="ie8"> <![endif]-->
-<!--[if !IE]><!-->
 <html lang="en">
-<!--<![endif]-->
 <head>
     <meta charset="utf-8"/>
-    <title>慢生活</title>
+    <title>确认订单</title>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
     <meta content="" name="description"/>
     <meta content="" name="author"/>
@@ -20,23 +16,57 @@
     <link href="../assets/css/default/style.min.css" rel="stylesheet"/>
     <link href="../assets/css/default/style-responsive.min.css" rel="stylesheet"/>
     <link href="../assets/css/default/theme/default.css" rel="stylesheet" id="theme"/>
+    <link href="../assets/plugins/select2/dist/css/select2.min.css" rel="stylesheet"/>
+    <link href="../assets/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="../assets/main/icon/iconfont.css">
     <link rel="stylesheet" href="../assets/main/css/basic.css">
-    <link rel="stylesheet" href="../assets/main/css/collection.css">
-    <!-- ================== END BASE CSS STYLE ================== -->
-
-    <!-- ================== BEGIN BASE JS ================== -->
-    <script src="../assets/plugins/pace/pace.min.js"></script>
-    <script src="../assets/main/icon/iconfont.js"></script>
-    <!-- ================== END BASE JS ================== -->
+    <link rel="stylesheet" href="../assets/main/css/pay-method.css">
 </head>
 <body>
-
 <div class="wrap">
-    <h1>分享赚佣金</h1>
+    <div class="method">
+        <div class="widget-list-item">
+            <label for="we-chat">
+                <div class="widget-list-media icon">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weixin"></use>
+                    </svg>
+                </div>
+                <div class="widget-list-content">
+                    <p class="widget-list-desc">微信支付</p>
+                </div>
+                <div class="widget-list-action">
+                    <input type="radio" name="pay-method" id="we-chat" value="option1"/>
+                </div>
+            </label>
+        </div>
+        <div class="widget-list-item ">
+            <label for="alpay">
+                <div class="widget-list-media icon">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-zhifubao"></use>
+                    </svg>
+                </div>
+                <div class="widget-list-content">
+                    <p class="widget-list-desc">支付宝支付</p>
+                </div>
+                <div class="widget-list-action">
+                    <input type="radio" name="pay-method" id="alpay" value="option2"/>
+                </div>
+            </label>
+        </div>
+    </div>
+    <div class="pay clearfix">
+        <div class="count float-left">
+            <span>实付款：</span>
+            <span>￥900</span>
+        </div>
+        <div class="confirm float-right">
+            <a href="javascript:;">结算</a>
+        </div>
+    </div>
 </div>
 
-<!-- ================== BEGIN BASE JS ================== -->
 <script src="../assets/plugins/jquery/jquery-3.3.1.min.js"></script>
 <script src="../assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
 <script src="../assets/plugins/jquery-ui/jquery-ui.min.js"></script>
@@ -50,8 +80,7 @@
 <script src="../assets/plugins/js-cookie/js.cookie.js"></script>
 <script src="../assets/js/theme/default.min.js"></script>
 <script src="../assets/js/apps.min.js"></script>
-<script src="../assets/main/js/footer.js"></script>
-<!-- ================== END BASE JS ================== -->
+<script src="../assets/main/icon/iconfont.js"></script>
 
 </body>
 </html>
