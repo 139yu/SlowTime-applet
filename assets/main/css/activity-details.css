@@ -1,5 +1,6 @@
 html,body {
     background-color: #f6f6f6;
+    font-size: 14px;
 }
 .header .banner img {
     width: 100%;
@@ -7,6 +8,9 @@ html,body {
 .activity-details {
     padding-left: 10px;
     padding-right: 10px;
+}
+.project-list .items {
+    margin-top: 10px;
 }
 .activity-details .row {
     background-color: #fff;

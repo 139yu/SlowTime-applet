@@ -1,7 +1,7 @@
-function main() {
-  var imagesCommon = ["../assets/img/gallery/gallery-6.jpg", "../assets/img/gallery/gallery-7.jpg", "../assets/img/gallery/gallery-8.jpg"];
+function main(imgs,id) {
+  var imagesCommon = imgs;
 
-  var root = document.getElementById("root");
+  var root = document.getElementById(id);
 
   function appendContainer(text) {
     var container = document.createElement("div");
@@ -94,4 +94,19 @@ function readyGo(func) {
   }
 }
 
-readyGo(main);
+var imgs01 = ["../assets/main/img/project/banner01.jpg", "../assets/main/img/project/banner02.jpg", "../assets/main/img/project/banner03.jpg", "../assets/main/img/project/banner04.jpg"];
+var imgs02 = ["../assets/main/img/project/banner05.jpg","../assets/main/img/project/banner06.jpg"]
+var imgs03 = ["../assets/main/img/project/banner06.jpg"]
+var imgs04 = ["../assets/main/img/project/banner03.jpg","../assets/main/img/project/banner02.jpg","../assets/main/img/project/banner15.jpg","../assets/main/img/project/banner08.jpg"]
+var imgs05 = ["../assets/main/img/project/banner03.jpg","../assets/main/img/project/banner17.jpg","../assets/main/img/project/banner22.jpg"]
+var imgs06 = ["../assets/main/img/project/banner16.jpg","../assets/main/img/project/banner15.jpg","../assets/main/img/project/banner08.jpg"]
+var imgs07 = ["../assets/main/img/project/banner20.jpg","../assets/main/img/project/banner17.jpg","../assets/main/img/project/banner22.jpg","../assets/main/img/project/banner21.jpg","../assets/main/img/project/banner06.jpg",]
+var imgs08 = ["../assets/main/img/project/banner09.jpg","../assets/main/img/project/banner12.jpg","../assets/main/img/project/banner13.jpg","../assets/main/img/project/banner10.jpg"]
+readyGo(main(imgs01,"root"));
+readyGo(main(imgs02,"root1"));
+readyGo(main(imgs03,"root2"));
+readyGo(main(imgs04,"root3"));
+readyGo(main(imgs05,"root4"));
+readyGo(main(imgs06,"root5"));
+readyGo(main(imgs07,"root6"));
+readyGo(main(imgs08,"root7"));
